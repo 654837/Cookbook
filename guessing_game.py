@@ -14,7 +14,7 @@ while number_of_guesses > 0:
   user_guess = input("Guess my number: ")
   user_guess = int(user_guess)
 
-  # Computer tells user wether guess was too high or too low
+  # Computer tells user whether guess was too high or too low
   if user_guess == correct_answer:
     print("Good guess!")
     print("You are correct!")
